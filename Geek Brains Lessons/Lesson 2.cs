@@ -33,6 +33,17 @@
                 Console.WriteLine($"{c} its max");
             }
         }
-
+        public static void Multiple_of_2()
+        {
+            int a = int.Parse(Console.ReadLine());
+            if (a % 2 == 0)
+            {
+                Console.WriteLine("да");
+            }
+            else
+            {
+                Console.WriteLine("нет");
+            }
+        }
     }
 }
